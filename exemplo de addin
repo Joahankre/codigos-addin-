@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Addin Type="Standard">
+  <ClassId>{bd2ec21a-725f-415f-826e-309a6ed74dde}</ClassId>
+  <ClientId>{bd2ec21a-725f-415f-826e-309a6ed74dde}</ClientId>
+  <DisplayName Language="1033">ItemNumberSync</DisplayName>
+  <Description Language="1033">Sincroniza os Item Numbers nas submontagens</Description>
+  <Assembly>C:\ADDINS\ItemNumberAddIn\bin\x64\Debug\ItemNumberAddIn.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionEqualTo>29..</SupportedSoftwareVersionEqualTo>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+  <LoadBehavior>4</LoadBehavior>
+</Addin>

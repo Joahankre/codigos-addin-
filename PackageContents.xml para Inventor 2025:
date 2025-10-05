@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage
+  SchemaVersion="1.0"
+  AutodeskProduct="Inventor"
+  Name="ItemNumberSync"
+  Description="Sincroniza Item Numbers em submontagens"
+  AppVersion="1.0"
+  ProductCode="{bd2ec21a-725f-415f-826e-309a6ed74dde}"
+  Author="DOMA"
+  Company="DOMA"
+  HelpUrl="https://suaempresa.com"
+  SupportedLocales="en-US;pt-BR">
+
+  <CompanyDetails
+    Name="DOMA"
+    Url="https://suaempresa.com"
+    Email="suporte@suaempresa.com" />
+
+  <Components Description="2025 Win64">
+    <RuntimeRequirements OS="Win64" Platform="Inventor|AIP" SeriesMin="Ir29" SeriesMax="Ir29" />
+    <ComponentEntry AppName="ItemNumberSync"
+                    Version="1.0"
+                    ModuleName="./Contents/Win64/ItemNumberAddIn.dll"
+                    AppDescription="Sincroniza os Item Numbers nas submontagens" />
+  </Components>
+</ApplicationPackage>
